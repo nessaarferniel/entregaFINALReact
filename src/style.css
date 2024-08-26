@@ -63,10 +63,14 @@ h4 {
   font-weight: normal;
 }
 
+th {
+  text-align: center;
+}
+
 /* configuración de tema de fondo */
 body {
   
-  background-image: url(../img/backgrounds/restaurant_icons.png);
+  background-image: url(../img/backgrounds/restaurant.png);
   background-repeat: repeat;
   background-attachment: scroll;  
 }
@@ -74,7 +78,7 @@ body {
 /* márgenes de los trextos */
 p {
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
   text-decoration: none;
 }
@@ -90,7 +94,7 @@ p {
 a {
   margin-top: 0px;
   margin-left: 10px;
-  color: white;
+  color:blue;
   font-size: 1em;
   font-weight: bold;
   text-decoration: none;
@@ -153,6 +157,19 @@ a {
 .contenedor {
   height: auto;
   width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  border: solid 1px #dfdbdb;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, white, #dfdbdb);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.pedido {
+  height: 50%;
+  width: 40%;
   margin: 10px auto;
   padding: 10px;
   border: solid 1px #dfdbdb;
